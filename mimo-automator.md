@@ -1,8 +1,25 @@
-# mimo automator
+---
+description: >-
+  mimo automator: automate swap for advanced trader. Enjoy the lightning fast
+  trading experience provided by mimo on IoTeX network.
+---
+
+# Automator
+
+## What you need?
+
+You need the following tools or knowledge for this page
+
+1. ioctl - command line tool for IoTeX blockchain. a detailed instruction is [here](https://docs.iotex.io/developer/get-started/ioctl-install.html).
+2. bash - you need to have basic knowledge about bash functions 
+
+The recommended environment of running the automator is on macOS or Linux. On Windows,  the best way to use it is WSL \([windows subsystem for linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10)\).
 
 ## Basic Functions
+
 ### function to convert a timestamp to 32 bytes hex
-```
+
+```text
 function deadline() {
   ts=`date +"%s"`
   printf "%064x\n" `expr $ts + 60`
@@ -10,15 +27,18 @@ function deadline() {
 ```
 
 ### function to convert a decimal number to 32 bytes hex
-```
+
+```text
 function decimal2hex() {
   echo "ibase=A;obase=16;$1" | bc | xargs -0 -I h printf "%64s" h | sed "s/ /0/g"
 }
 ```
 
 ## Construct `ioctl` Commands
+
 ### Add liquidity
-```
+
+```text
 function addLiquidity() {
   exchange=$1
   min_liquidity=`decimal2hex $2`
@@ -30,7 +50,8 @@ function addLiquidity() {
 ```
 
 ### Remove liquidity
-```
+
+```text
 function removeLiquidity() {
   exchange=$1
   amount=`decimal2hex $2`
@@ -42,7 +63,8 @@ function removeLiquidity() {
 ```
 
 ### Get token to IOTX input price
-```
+
+```text
 function getTokenToIotxInputPrice() {
   exchange=$1
   amount=`decimal2hex $2`
@@ -51,7 +73,8 @@ function getTokenToIotxInputPrice() {
 ```
 
 ### Get IOTX to token input price
-```
+
+```text
 function getIotxToTokenInputPrice() {
   exchange=$1
   amount=`decimal2hex $2`
@@ -60,7 +83,8 @@ function getIotxToTokenInputPrice() {
 ```
 
 ### Swap token to IOTX
-```
+
+```text
 function tokenToIotxSwapInput() {
   exchange=$1
   token_sold=`decimal2hex $2`
@@ -71,7 +95,8 @@ function tokenToIotxSwapInput() {
 ```
 
 ### Swap IOTX to token
-```
+
+```text
 function iotxToTokenSwapInput() {
   exchange=$1
   iotx_sold=`decimal2hex $2`
