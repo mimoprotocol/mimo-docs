@@ -1,7 +1,5 @@
 ---
-description: >-
-  mimo automator: automate swap for advanced trader. Enjoy the lightning fast
-  trading experience provided by mimo on IoTeX network.
+description: 'mimo automator: automate swap for advanced trader.'
 ---
 
 # Automator
@@ -14,6 +12,8 @@ You need the following tools or knowledge for this page
 2. bash - you need to have basic knowledge about bash functions 
 
 The recommended environment of running the automator is on macOS or Linux. On Windows,  the best way to use it is WSL \([windows subsystem for linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10)\).
+
+**Enjoy the lightning fast trading experience provided by mimo on IoTeX network, now with automator!**
 
 ## Basic Functions
 
