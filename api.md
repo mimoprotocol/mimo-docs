@@ -1,5 +1,21 @@
 # API
 
+## Web API
+
+* add liquidity to a certain LP pool by using 
+
+```text
+https://mimo.exchange/add-liquidity?source=iotx&dest={token address}
+```
+
+* swap a certain token
+
+```text
+https://mimo.exchange/swap?source=iotx&dest={token address}
+```
+
+## Smart Contract API
+
 Developers can integrate with mimo.exchange by calling smart contract APIs. 
 
 The IoTeX JS SDK is provided as
