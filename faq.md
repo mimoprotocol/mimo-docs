@@ -47,9 +47,9 @@ For instructions on providing liquidity, please refer to the[ mimo user guide](h
 
 All trading fees are just 0.3% of source token. The fees will 100% go to liquidity pool for share among all liquidity providers.
 
-## Do I trust tokens on mimo?
+## Should I trust tokens on mimo?
 
-In short, don't trust, always question! 
+**In short, don't trust, always question!** 
 
 mimo is an open protocol that allows trading of any tokens without permission. Anyone can create XRC20 token on IoTeX with any name, including fake tokens. 
 
