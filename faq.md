@@ -47,3 +47,38 @@ For instructions on providing liquidity, please refer to the[ mimo user guide](h
 
 All trading fees are just 0.3% of source token. The fees will 100% go to liquidity pool for share among all liquidity providers.
 
+## How do I trust tokens on mimo?
+
+In short, don't trust, always question! 
+
+mimo is an open protocol that allows trading of any tokens without permission. Anyone can create XRC20 token on IoTeX with any name, including fake tokens. 
+
+If you are interacting with an arbitrary token by its token address, or labeled as "Self listed", please take extra caution and do your research before trading.
+
+If you purchase an arbitrary token, you may be unable to sell it back.
+
+The best practice are
+
+1. you can safely trade tokens on mimo's list, excluding "Self listed" ones.
+2. when you trade one of the following types of tokens 
+
+   1. Self listed
+   2. added by you using token address
+   3. added by a particular URL from external websites
+
+   Please double check the token address and research if it is your desired token to trade. Things you can do are 
+
+   1. Research the token's issuers website and try to find a token address on the website
+   2. Ask for help in social channels like: [http://t.me/mimochat](http://t.me/mimochat)
+   3. Always question if the tokens or even projects are legit.
+
+## How do I list my token on mimo?
+
+If you are working on a project with a token, congrats, mimo is a great place to allow your users to trade your tokens. To list on mimo, you can simply add liquidity to your token. The first time of adding liquidity will have a process of creating an "exchange" contract. Thereafter, anyone can add liquidity.
+
+Once your token is added with some liquidity, it would show up in mimo analytics \(info.mimo.exchange\). Once the liquidity surpasses 200K IOTX, it would show up in mimo.exchange interface as "Self Listed".  
+
+You can submit your token to IoTeX's token metadata github repository to add logo and metadata to iotexscan. mimo will follow the data from iotexscan.
+
+You can refer to [https://docs.iotex.io/developer/smart-contracts/issue-tokens.html](https://docs.iotex.io/developer/smart-contracts/issue-tokens.html) for how to issue a token on IoTeX network.
+
