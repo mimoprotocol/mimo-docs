@@ -47,7 +47,7 @@ For instructions on providing liquidity, please refer to the[ mimo user guide](h
 
 All trading fees are just 0.3% of source token. The fees will 100% go to liquidity pool for share among all liquidity providers.
 
-## How do I trust tokens on mimo?
+## Do I trust tokens on mimo?
 
 In short, don't trust, always question! 
 
