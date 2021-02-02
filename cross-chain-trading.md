@@ -4,3 +4,7 @@ mimo.exchange supports trading for any XRC20 tokens, including [ioTube](https://
 
 Please refer to ioTube for currently supported assets. 
 
+We are launching mimo-x, a cross chain swap that integrates ioTube, uniswap, mimo to swap between assets on ETH and IOTX.
+
+
+
