@@ -1,4 +1,6 @@
 # Analytics
 
-With all trading activities, mimo has a comprehensive analytics data from IoTeX blockchain. mimo analytics will be launching soon to facilitate all traders. 
+Please visit [https://info.mimo.exchange/](https://info.mimo.exchange/) to view all token's trading activities, pricing, etc.
+
+
 
