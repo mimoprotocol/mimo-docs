@@ -9,6 +9,7 @@
 ## mimo V2 <a id="mimo-v2-1"></a>
 
 * [mimo V2](mimo-v2-1/mimo-v2.md)
+* [Get Started](mimo-v2-1/get-started.md)
 * [Smart Contracts](mimo-v2-1/smart-contracts.md)
 
 ## mimo V1
