@@ -18,14 +18,5 @@ We are launching mimo v2 in Alpha to gather feedback and bring you, the communit
 
 If you encounter any bugs or want to give feedback, please report them to us on [Telegram](https://t.me/mimogroup).
 
-## **What will happen to mimo v1? Do I need to port over my liquidity to mimo v2?**
-
-mimo v1 is a set of smart contracts deployed on IoTeX and will continue to function alongside mimo v2. However, liquidity on mimo v1 is separate from liquidity on mimo v2. Over time, we anticipate \(and encourage\) much of the liquidity from mimo v1 to be ported over to mimo v2 to benefit from our new features.  
-
-
-## Shall I choose V1 or V2?
-
-If you are a trader, you can choose whichever has a better price. There  could be arbitrage opportunities between the two as well. 
-
-If you are liquidity provider, you should start considering V2 as the first choice as it will be the official default interface.
+## \*\*\*\*
 
