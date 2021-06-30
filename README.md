@@ -10,11 +10,11 @@ Please check out the following sections of this doc.
 
 {% page-ref page="cross-chain-trading.md" %}
 
-{% page-ref page="smart-contract.md" %}
+{% page-ref page="mimo-v1/smart-contract.md" %}
 
 {% page-ref page="mimo-analytics.md" %}
 
-{% page-ref page="api.md" %}
+{% page-ref page="mimo-v1/api.md" %}
 
 {% page-ref page="faq.md" %}
 
