@@ -1,36 +1,29 @@
-# FAQ \(V2\)
+# 常见问题 \(V2\)
 
-## **What will happen to mimo v1? Do I need to port over my liquidity to mimo v2?**
+## **mimo v2上线后，**mimo v1会有什么变化呢？是否需要将流动性迁移至 mimo v2 呢？
 
-mimo v1 is a set of smart contracts deployed on IoTeX and will continue to function alongside mimo v2. However, liquidity on mimo v1 is separate from liquidity on mimo v2. Over time, we anticipate \(and encourage\) much of the liquidity from mimo v1 to be ported over to mimo v2 to benefit from our new features.  
+mimo v1 是一款部署在 IoTeX艾坦星 上的智能合约，并将继续与 mimo v2 共同运行。 然而，mimo v1 的流动性与 mimo v2 的流动性是分开的，随着 mimo v2 生态不断发展，我们预计（并鼓励）用户将 mimo v1 的大部分流动性迁移至 mimo v2，享受 mimo v2 更好的功能与体验。
 
+## 我应该选择使用V1还是V2？
 
-## Shall I choose V1 or V2?
+如果您是交易者，您可以选择价格更优惠的一方。v1 与 v2 之间也可能存在套利机会。
 
-If you are a trader, you can choose whichever has a better price. There  could be arbitrage opportunities between the two as well. 
+如果您是流动性提供者，您应该将 v2 作为首选，因为它将是官方的默认接口。
 
-If you are liquidity provider, you should start considering V2 as the first choice as it will be the official default interface.
+## 流动性会自动从V1迁移到 V2 吗？
 
-## Will liquidity move over to V2 automatically?
+不可以。用户必须自行将流动性迁移到 V2。所有的流动性都是被锁定在智能合约中的，只有流动性的所有者们才具有操作它们的权利。
 
-No. Users have to move liquidity over to V2. All liquidity are locked in smart contracts. Only the owners of the liquidity have access to them.
+## 如何在 mimo V2 上列出新代币？
 
-## How can I list a new token on mimo V2?
+添加代币非常地简单，请为 mimo v2 添加流动性吧！你可以从这里开始：[https://swap.mimo.exchange/\#/add/IOTX](https://swap.mimo.exchange/#/add/IOTX)
 
-Anyone can add a token very easily. Please add liquidity to mimo v2. You can start here: [https://swap.mimo.exchange/\#/add/IOTX](https://swap.mimo.exchange/#/add/IOTX)
+一旦你添加了流动性，人们就可以使用代币地址直接交易你的代币。你可以将代币直接添加到 [https://github.com/iotexproject/iotex-token-metadata](https://github.com/iotexproject/iotex-token-metadata) ，这样会显得更好更直观。
 
-Once you add liquidity, people can trade your tokens directly by using the token address. You may consider add your token to [https://github.com/iotexproject/iotex-token-metadata](https://github.com/iotexproject/iotex-token-metadata) to make it looking better.
+但是，增加流动性不意味着这会直接将您的代币添加到 mimo 的默认代币列表中并显示出来。我们将严格审核将代币添加至 mimo 默认代币列表。以下是将代币添加到默认列表的一些考核维度：
 
-However, adding liquidity does not add your token to mimo's token list and showing up on mimo's default views. We add tokens to default token list very strictly. Here are some considerations of adding a token to default view. 
-
-1. liquidity. 
-2. social presence 
-3. token holders 
-4. endorsement from reputed parties, such as IoTeX foundation. 
-
-
-
-
-
-
+1. 流动性
+2. 当前热度 
+3. 持币地址
+4. 来自知名人士/机构的认可，例如 IoTeX 基金会
 
