@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to mimo!](README.md)
+* [欢迎来到mimo!](README.md)
 * [The Formulas](the-formulas.md)
 * [Cross-Chain Trading](cross-chain-trading.md)
 * [Analytics](mimo-analytics.md)
@@ -9,8 +9,8 @@
 ## mimo V2 <a id="mimo-v2-1"></a>
 
 * [mimo V2](mimo-v2-1/mimo-v2.md)
-* [Get Started](mimo-v2-1/get-started.md)
-* [Smart Contracts](mimo-v2-1/smart-contracts.md)
+* [使用说明](mimo-v2-1/get-started.md)
+* [智能合约](mimo-v2-1/smart-contracts.md)
 * [FAQ \(V2\)](mimo-v2-1/faq-v2.md)
 
 ## mimo V1

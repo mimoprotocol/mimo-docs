@@ -1,10 +1,11 @@
-# Smart Contracts
+# 智能合约
 
-mimo V2's smart contracts are opensourced at [https://github.com/mimoprotocol/mimo2-contracts](https://github.com/mimoprotocol/mimo2-contracts)
+mimo V2 的智能合约是开源的：  
+[https://github.com/mimoprotocol/mimo2-contracts](https://github.com/mimoprotocol/mimo2-contracts)
 
-The smart contracts are based on [Uniswap V2 smart contracts](https://github.com/Uniswap/uniswap-v2-core), which is widely used by Sushiswap, Pancakeswap etc. 
+mimo V2的智能合约是基于 [Uniswap V2](https://github.com/Uniswap/uniswap-v2-core) 智能合约实现的——本智能合约已被Sushiswap、Pancakeswap 等广泛使用。
 
-The deployed contracts are 
+合约部署：
 
 | Name | Address |
 | :--- | :--- |

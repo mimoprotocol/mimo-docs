@@ -1,22 +1,24 @@
 # mimo V2
 
-In addition to the decentralized liquidity pools and token swaps you are familiar with from mimo v1, mimo v2 will serve as the foundation for advanced features that will greatly expand DeFi on IoTeX. These features, which are summarized below, will be released incrementally and progress from Alpha → Beta → Production.
+除了在 mimo v1 中用户们所熟悉的去中心化流动性池和代币兑换之外，mimo v2 还将作为扩展IoTeX上的DeFi生态的高级功能的基础。这些功能将逐步发布，并以 Alpha → Beta → Production 进行，详情如下：
 
-* **Direct token-to-token swaps**: in mimo v1, users could swap any XRC20 asset for any other XRC20 by routing through IOTX \(e.g., swapping VITA-to-BUSD involved VITA-to-IOTX & IOTX-to-BUSD transactions\). In mimo v2, any XRC20 asset can be pooled/swapped directly with any other XRC20 asset, including stablecoins. Now available for testing as part of our mimo v2 Alpha release!
-* **Cross-chain swaps \(via ioTube integration\)**: mimo v2 will be integrated with [ioTube](https://tube.iotex.io) to support cross-chain, wallet-to-wallet swaps between IoTeX and Ethereum, BSC, Polygon. This means you can swap IoTeX tokens for Ethereum/BSC/Polygon tokens, and the swapped tokens will show up directly in your Ethereum/BSC/Polygon wallet!
-* **Yield Farms v1**: as new XRC20 tokens are onboarded to IoTeX, our Yield Farms v1 will enable liquidity providers to stake \(deposit\) their LP tokens and earn additional yield
-* **$MIMO governance token**: the highly anticipated $MIMO token will launch in 2021 with airdrops distributed to early mimo adopters; $MIMO will also be mine-able in our yield farms
-* **Governance DAO**: holders of $MIMO token will be able to make proposals and join network-wide votes facilitated by a transparent DAO
+* **代币-代币闪兑：**在 mimo v1 中，用户可以通过 IOTX 实现将任何 XRC20 资产兑换为其他任意 XRC20 资产（例如，将 VITA 兑换成 BUSD 涉及 VITA - IOTX 和 IOTX - BUSD 的兑换过程）。在 mimo v2 中，实现了任意 XRC20 资产都可以直接与其他 XRC20 资产（包括稳定币）进行兑换/组成流动性池。用户可在当前的 mimo v2 Alpha 版本中进行测试本项功能！ 
+* **跨链兑换\(由 ioTube 集成\):** mimo v2 将与[ioTube](https://tube.iotex.io/)跨链桥进行集成，实现支持资产在IoTeX与以太坊、BSC、Polygon等多链之间的跨链，钱包与钱包间的兑换。用户可以将IoTeX上的代币兑换成Ethereum/BSC/Polygon上的代币，并且兑换后的代币将直接显示在用户的Ethereum/BSC/Polygon钱包中！ 
+* **Yield Farms v1：**随着新的 XRC20 代币不断在IoTeX上登陆，Yield Farms v1 将使流动性提供者能够质押（存入）他们的 LP 代币并获得额外收益。 
+* **治理代币-$MIMO ：**备受期待的 $MIMO 代币将于 2021 年推出，空投将分发给早期的 MIMO 用户；$MIMO 也可以在我们的Yield Farms中进行铸造。 
+* **DAO治理：**$MIMO 代币的持有者们拥有提出提案并参与由DAO治理实现的全网公投的权利。
 
-## How to use mimo V2?
+## 如何使用mimo V2?
 
-We are launching mimo v2 in Alpha to gather feedback and bring you, the community, along with us on our journey. If you want to help test mimo v2, it’s simple!
+我们将推出 mimo v2 Alpha 版以收集早期测试反馈，并诚挚邀请所有社区成员与我们一起踏上旅程！一起加入 mimo v2吧：
 
-* Install [MetaMask](https://metamask.io/) and connect IoTeX as a custom RPC/Network using [these instructions](https://docs.iotex.io/get-started/ethereum-tools/ethereum-copmpatibility/metamask). Note: mimo v2 is only compatible with Web3 tools like MetaMask.
-* Visit the [mimo v2 website/app](https://swap.mimo.exchange/) -- if you are a first time user, you will be prompted to authorize IoTeX on MetaMask
-* Add liquidity to any existing pool \(or create your own pool\) and swap between any XRC20 tokens.
+* 根据[说明](https://docs.iotex.io/get-started/iotex-wallets/metamask)安装 [MetaMask](https://metamask.io/) 并以自定义 RPC/网络连接 IoTeX 。 注意：mimo v2 仅与 MetaMask 等 Web3 工具兼容。
+* 访问 [mimo v2](https://swap.mimo.exchange/) ——如果是第一次使用，系统会提示您在 MetaMask 上对IoTeX进行授权。
+* 向任何现有的流动性池添加流动性（或创建新的流动性池），在任意XRC20 代币之间进行进行兑换操作。
 
-If you encounter any bugs or want to give feedback, please report them to us on [Telegram](https://t.me/mimogroup).
+
+
+如果您遇到任何错误或其他，请通过 [Telegram](https://t.me/mimogroup) 向我们提供反馈。
 
 ## \*\*\*\*
 

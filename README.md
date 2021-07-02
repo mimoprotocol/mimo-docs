@@ -1,10 +1,10 @@
-# Welcome to mimo!
+# 欢迎来到mimo!
 
-mimo is a fully decentralized protocol with automated liquidity to power the future of DeFi. Powered by the IoTeX blockchain, mimo utilizes smart contracts and automated market making \(AMM\) algorithms to manage liquidity pools and connect buyers/sellers of crypto assets.
+mimo是一款完全去中心化的协议，具有自动化流动性，旨在为 DeFi 的未来生态提供动力。在 IoTeX 艾坦星区块链的支持下，mimo 利用智能合约和自动做市 \(AMM\) 算法来管理流动性池并连接加密资产的买家/卖家。 
 
-The first instantiation of the mimo protocol will be mimo.exchange, a decentralized exchange \(DEX\) for peer-to-peer trading of ERC20 & XRC20 assets.  
+mimo 协议的第一个应用实例是 mimo.exchange——这是一个去中心化交易所（DEX），用于 ERC20 和 XRC20 等资产的点对点交易。 
 
-Please check out the following sections of this doc.
+更多详情请查看本文档以下部分。
 
 {% page-ref page="the-formulas.md" %}
 
