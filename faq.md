@@ -6,10 +6,6 @@ mimo 是一款在 IoTeX 上具有自动化流动性的完全去中心化协议�
 
 ## 跨链交易是如何运作的？
 
-mimo.exchange works with [ioTube](https://tube.iotex.io/), a decentralized cross-chain bridge between IoTeX and other blockchain networks, to support cross-chain trading. For any assets supported on ioTube, they can be added to mimo in no time. At current stage, all ERC20 assests that ioTube supports are tradable on mimo.
-
-
-
 mimo.exchange 是与 [ioTube](https://tube.iotex.io/) 共同协作的，ioTube 是实现IoTeX 和其他区块链网络之间进行跨链交易的去中心化跨链桥梁。对于 ioTube 上任何支持的资产，它们都可以被立即添加至 mimo。当前，ioTube 支持的所有 ERC20 资产都可以在 mimo 上进行交易。
 
 ## **mimo的用户是？**
