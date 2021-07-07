@@ -3,8 +3,8 @@
 * [欢迎来到mimo!](README.md)
 * [The Formulas](the-formulas.md)
 * [跨链交易](cross-chain-trading.md)
-* [Analytics](mimo-analytics.md)
-* [FAQ](faq.md)
+* [分析](mimo-analytics.md)
+* [常见问题](faq.md)
 
 ## mimo V2 <a id="mimo-v2-1"></a>
 
