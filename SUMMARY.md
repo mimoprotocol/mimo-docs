@@ -2,7 +2,7 @@
 
 * [欢迎来到mimo!](README.md)
 * [The Formulas](the-formulas.md)
-* [Cross-Chain Trading](cross-chain-trading.md)
+* [跨链交易](cross-chain-trading.md)
 * [Analytics](mimo-analytics.md)
 * [FAQ](faq.md)
 

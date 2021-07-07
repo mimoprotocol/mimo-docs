@@ -1,10 +1,8 @@
-# Cross-Chain Trading
+# 跨链交易
 
-mimo.exchange supports trading for any XRC20 tokens, including [ioTube](https://tube.iotex.io) transferred ERC20 tokens.  For any assets supported on ioTube, they can be added to mimo in no time. 
+mimo.exchange 支持任何 XRC20 代币的交易，包括使用 [ioTube](https://tube.iotex.io) 进行跨链转移的 ERC20 代币。对于 ioTube 上支持的任何资产，它们都可以立即添加到 mimo。
 
-Please refer to ioTube for currently supported assets. 
+有关当前支持的资产，请参阅 ioTube。
 
-We are launching mimo-x, a cross chain swap that integrates ioTube, uniswap, mimo to swap between assets on ETH and IOTX.
-
-
+我们正在研究并开发 mimo-x，这是一款集成了 ioTube、uniswap、mimo 等的跨链交易工具，以实现在 ETH 和 IOTX 上的资产间进行转账。
 
