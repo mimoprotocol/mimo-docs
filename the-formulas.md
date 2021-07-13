@@ -2,51 +2,55 @@
 description: This page shows the formulas used in mimo protocol.
 ---
 
-# The Formulas
+# 公式
 
-## Automated Market Making
+## 自动做市
 
-In each trade, traders trade certain amount of a particular token for certain amount of another token with the price defined by a formula. There is no orderbook and waiting for fulfillment. 
+在每笔交易中，用户可以用一定数量的特定代币对一定数量的另一种代币进行交易兑换，价格由公式进行定义。MIMO没有使用传统的交易委托账本和待执行机制。
 
-The formula that mimo uses is the famous  $$x * y = k$$ that has been widely adopted by AMM based DEX, such as uniswap. 
+mimo 使用的公式是基于自动做市\(AMM\)的 DEX 广泛采用的著名公式$$x * y = k$$，例如 uniswap。
 
-## The formula $$x * y = k$$ 
+## 公式  $$x * y = k$$ 
 
-Assume that$$X$$ is the source token, and $$Y$$ is the destination token. In mimo, $$X$$, $$Y$$ could be either IOTX or XRC20 tokens. Let $$x$$, $$y$$ be X-token, Y-token in current liquidity pool, respectively.
+假设$$X$$这是源代币， $$Y$$是目标代币。在 mimo 中，$$X$$, $$Y$$可以是 IOTX 或任何 XRC20 令牌。 设$$x$$,$$y$$分别为当前流动性池中的 X-token、Y-token。
 
-Based on the famous AMM equation 
+基于著名的 AMM 方程
 
 $$
 x * y = k
 $$
 
-where $$k$$ is a constant. 
+公式中的$$k$$ 是一个常数。
 
-The product of $$x$$ and $$y$$ remains the same before and after trading. For details, please refer to [vbuterin's post](https://ethresear.ch/t/improving-front-running-resistance-of-x-y-k-market-makers/1281). 
+ $$x$$和 $$y$$的乘积在交易前后保持不变。详情请参考[vbuterin的帖子](https://ethresear.ch/t/improving-front-running-resistance-of-x-y-k-market-makers/1281)。
 
-## Pricing based on the inputs
+## 基于输入值的定价
 
 Let's further define $$d_x$$ , $$d_y$$ are how many X-tokens you want to pay, and  how many Y-tokens you will get, respectively.
 
 We'd like to know, the price based on $$d_x$$ or$$d_y$$.   If`getInputPrice` denotes how many Y-Tokens \(i.e. $$d_y$$ \) can be bought by selling a given $$d_x$$, 
 
+让我们进一步定义 $$d_x$$ , $$d_y$$，分别是您想要支付的X-token的数量，以及您将获得的Y-token的数量。
+
+我们需要知道，价格是基于$$d_x$$或$$d_y$$的。如果用`getInputPrice`表示通过出售给定的$$d_x$$可以购买的Y-token的数量（即$$d_y$$ ），则：
+
 $$
 getInputPrice(x, y, d_x) = \dfrac{y * 997 * dx}{1000 * x + 997 * d_x}
 $$
 
-or in  code,
+在代码中表示为：
 
 ```javascript
 getInputPrice(x, y, dx) = (y * 997 * dx) / (1000 x + 997 dx)
 ```
 
-If  `getOutputPrice` denotes how many X-tokens is needed to buy $$d_y$$ Y-tokens,
+如果`getOutputPrice` 表示购买$$d_y$$ Y-tokens需要的X-token的数量 ,则：
 
 $$
 getOutputPrice(x, y, d_y) = \dfrac{1000 * x * d_y}{(y-d_y)*997} + 1
 $$
 
-or in code,
+在代码中表示为：
 
 ```javascript
 getOutputPrice(x, y, dy) = 1000 x * dy / ((y - dy) * 997) + 1
@@ -54,48 +58,52 @@ getOutputPrice(x, y, dy) = 1000 x * dy / ((y - dy) * 997) + 1
 
 where `/` in above equations denotes `divToInteger`, which means divide with rounding to floor of the results.
 
-## Price impact
+上方等式中的 `/` 表示 `divToInteger`，意为除以四舍五入到结果。
 
-In AMM, the price would change after each trade, $$d_x$$ , $$d_y$$ and  $$x, y$$ the liquidity in the pool. The price impact is what traders want to know before the trade. 
+## 价格影响因素
 
-There are two ways of calculating price impact. It can be based on $$x, y, d_x$$ , or $$x, y ,d_y$$ . One is based on input , one is based on output. 
+在AMM中，兑换汇率会在每次交易后发生变化，也会在 $$d_x$$ , $$d_y$$ 和  $$x, y$$池中的流动性发生变化后变化。因此，价格影响因素是交易者们在交易前希望知道的。
+
+
+
+有两种支持计算价格影响的方法。它可以基于 $$x, y, d_x$$或$$x, y ,d_y$$。一种是基于输入值，一种是基于输出值。
 
 $$
 PriceImpact(x, y, d_x) = \frac{ (1000*x)^2} { (1000*x + 997*d_x)^2} -1
 $$
 
-or
+或
 
 $$
 PriceImpact(x, y, d_y) = \dfrac{(y-d_y)^2}{y^2} -1
 $$
 
-in code,
+在代码中表示为：
 
 ```javascript
 price impact(x, y, dx) = (1000*x)^2 / (1000*x + 997*dx)^2 - 1
 price impact(x, y, dy) = (y - dy)^2 / y^2 - 1
 ```
 
-Note that the price impact is  always between `-1` and `0`.
+请注意，价格影响始终介于 `-1` 和 `0` 之间。
 
-## Cross-Trading Price Impact
+## 交叉交易价格影响因素
 
-If there are no direct trading pairs between two tokens, like in V1 where we only support IOTX/token pairs, traders need to use one token, such as IOTX, as a bridge to trade among two tokens. 
+如果两个代币之间没有直接交易对，比如在 V1 中我们只支持 IOTX/XRC20交易对，交易者需要使用一个代币，例如 IOTX，作为两个代币之间交易的桥梁。
 
-In this case, the price impact would be
+在这种情况下，价格影响公式将是
 
 $$
 PriceImpact_{cross}  = PI_1 * PI_2 + PI_1 + PI_2
 $$
 
-or in code,
+在代码中表示为：
 
 ```javascript
 price impact = PI1 * PI2 + PI1 + PI2
 ```
 
-where
+当中，
 
 ```text
 PI1 is the price impact of first trading pair, such as x to IOTX

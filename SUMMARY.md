@@ -1,7 +1,7 @@
 # Table of contents
 
 * [欢迎来到mimo!](README.md)
-* [The Formulas](the-formulas.md)
+* [公式](the-formulas.md)
 * [跨链交易](cross-chain-trading.md)
 * [分析](mimo-analytics.md)
 * [常见问题](faq.md)
