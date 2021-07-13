@@ -11,6 +11,7 @@
 * [mimo V2](mimo-v2-1/mimo-v2.md)
 * [使用说明](mimo-v2-1/get-started.md)
 * [智能合约](mimo-v2-1/smart-contracts.md)
+* [SDK](mimo-v2-1/sdk.md)
 * [常见问题 \(V2\)](mimo-v2-1/faq-v2.md)
 
 ## mimo V1
