@@ -6,13 +6,13 @@
 * [Analytics](mimo-analytics.md)
 * [FAQ](faq.md)
 
-## mimo V2 <a id="mimo-v2-1"></a>
+## mimo V2
 
-* [mimo V2](mimo-v2-1/mimo-v2.md)
-* [Get Started](mimo-v2-1/get-started.md)
-* [Smart Contracts](mimo-v2-1/smart-contracts.md)
-* [SDK](mimo-v2-1/sdk.md)
-* [FAQ \(V2\)](mimo-v2-1/faq-v2.md)
+* [mimo V2](mimo-v2/mimo-v2-intro.md)
+* [Get Started](mimo-v2/get-started.md)
+* [Smart Contracts](mimo-v2/smart-contracts.md)
+* [SDK](mimo-v2/sdk.md)
+* [FAQ \(V2\)](mimo-v2/faq-v2.md)
 
 ## mimo V1
 
