@@ -28,7 +28,7 @@ The product of $$x$$ and $$y$$ remains the same before and after trading. For de
 
 Let's further define $$d_x$$ , $$d_y$$ are how many X-tokens you want to pay, and  how many Y-tokens you will get, respectively.
 
-We'd like to know, the price based on $$d_x$$ or$$d_y$$.   If`getInputPrice` denotes how many Y-Tokens \(i.e. $$d_y$$ \) can be bought by selling a given $$d_x$$, 
+We'd like to know, the price based on $$d_x$$ or$$d_y$$.   If`getInputPrice` denotes how many Y-Tokens (i.e. $$d_y$$ ) can be bought by selling a given $$d_x$$, 
 
 $$
 getInputPrice(x, y, d_x) = \dfrac{y * 997 * dx}{1000 * x + 997 * d_x}
@@ -97,10 +97,8 @@ price impact = PI1 * PI2 + PI1 + PI2
 
 where
 
-```text
+```
 PI1 is the price impact of first trading pair, such as x to IOTX
 PI2 is the price impact of second trading pair, such as IOTX to y
 ```
-
-
 

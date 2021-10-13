@@ -6,5 +6,3 @@ Please refer to ioTube for currently supported assets.
 
 We are launching mimo-x, a cross chain swap that integrates ioTube, uniswap, mimo to swap between assets on ETH and IOTX.
 
-
-
